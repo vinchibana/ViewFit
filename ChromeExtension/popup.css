@@ -1,0 +1,15 @@
+:root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+body { width: 290px; margin: 0; padding: 22px; color: light-dark(#242629, #f2f3f5); background: light-dark(#fafaf9, #242628); }
+header { display: flex; gap: 10px; align-items: center; }
+h1 { font-size: 18px; margin: 0; font-weight: 650; }
+.mark { font-size: 26px; color: light-dark(#277167, #79c9b7); }
+p { line-height: 1.55; font-size: 12px; }
+#connection { color: light-dark(#277167, #79c9b7); }
+.profile { padding: 16px; margin: 16px 0; border-radius: 12px; background: light-dark(#eeeFEB, #303433); display: flex; align-items: center; justify-content: space-between; }
+.profile span { font-size: 13px; }
+.profile strong { font-size: 27px; font-weight: 550; }
+#detail, footer { color: light-dark(#656a6c, #b2b9b9); }
+#error { color: light-dark(#9d4329, #f7b19d); overflow-wrap: anywhere; }
+button { border: 0; border-radius: 8px; background: light-dark(#287567, #89d0bd); color: light-dark(white, #182b26); width: 100%; padding: 10px; font: inherit; font-size: 13px; cursor: pointer; }
+button:focus-visible { outline: 3px solid #82aef3; outline-offset: 3px; }
+footer { margin-top: 15px; font-size: 11px; }

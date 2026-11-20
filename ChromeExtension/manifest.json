@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "ViewFit · 随屏",
+  "version": "1.0.1",
+  "description": "跟随「ViewFit · 随屏」菜单栏应用，按外接显示器配置自动调整网页缩放。",
+  "minimum_chrome_version": "120",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqZ2pYh2k2VcGx2Fp0vAdzTPmd5i5fY+kqrVo3aMxfzc2vRNWw5vKkQ18UIByktgQ/DBuMTlmTMrdnMz0X5f1YY6MSp46G8AeHR/5DV2WiAo7S5Q9Waq4bJ4XAzqmC9FIdmsVZWcl9VnANkXMhSMblCIy6v19SEhJWVu89SyBu7ceKsE3DKy1AhTqUCP6EuYdH+ZtyaRNiBJikl0s3+kEJMirURIsAWL+ezYKoSYkhsD3zHfnbUercH02nNh5GcZE0yp3IsuSNNJ+jtwex70ZEeoDcr7nv/TeSABLXRgNEr7mVAADYxDfSYuE36G4shKxqWvl+r1/JSgURXVNrh2xfwIDAQAB",
+  "permissions": ["nativeMessaging", "alarms"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "ViewFit · 随屏", "default_popup": "popup.html" }
+}

@@ -1,0 +1,11 @@
+.build/
+build/
+.DS_Store
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+.env
+.env.*
+configuration.json
+chrome-state.json
+chrome-heartbeat

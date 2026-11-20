@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ViewFit · 随屏</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header><span class="mark">↔</span><h1>ViewFit · 随屏</h1></header>
+  <p id="connection" role="status">正在检查连接…</p>
+  <div class="profile"><span id="display">—</span><strong id="zoom">—</strong></div>
+  <p id="detail">在菜单栏应用中设置各应用的外接屏缩放比例。</p>
+  <p id="error" hidden></p>
+  <button id="reconnect" type="button">重新连接</button>
+  <footer>只调整网页大小，不读取网页内容。</footer>
+  <script src="popup.js"></script>
+</body>
+</html>
