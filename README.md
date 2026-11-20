@@ -57,3 +57,7 @@ python3 scripts/test-bridge.py build/ViewFit.app/Contents/MacOS/ViewFitBridge
 ## 卸载
 
 退出 ViewFit，关闭其登录启动；从 Chrome 移除 ViewFit · 随屏 扩展。将应用和上述配置目录、专属 Native Messaging 注册文件移至废纸篓即可。无需修改 Chrome 主配置或网站数据。
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE)。允许商业使用、修改和闭源再分发；分发时须保留版权声明及许可文本。

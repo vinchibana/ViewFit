@@ -13,6 +13,8 @@ cp "$BIN_DIR/ViewFitBridge" "$APP/Contents/MacOS/ViewFitBridge"
 for file in ChromeExtension/*; do
     if [ -f "$file" ]; then cp "$file" "$APP/Contents/Resources/ChromeExtension/"; fi
 done
+cp LICENSE "$APP/Contents/Resources/LICENSE"
+cp LICENSE "$APP/Contents/Resources/ChromeExtension/LICENSE"
 cat > "$APP/Contents/Info.plist" <<'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
